@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: helloapp
-        image: nwn722/hello-app:build-20
+        image: nwn722/hello-app:build-21
         ports:
         - containerPort: 80
 
