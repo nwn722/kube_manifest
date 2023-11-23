@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/Amith90/kube_manifest_helloapp.git
+    repoURL: https://github.com/nwn722/kube_manifest.git
     targetRevision: HEAD
     path: manifest
   destination: 
