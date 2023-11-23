@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloapp
+spec:
+  selector:
+    matchLabels:
+      app: helloapp
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: helloapp
+    spec:
+      containers:
+      - name: helloapp
+        image: amith90/hello-app:build-8
+        ports:
+        - containerPort: 80
+
