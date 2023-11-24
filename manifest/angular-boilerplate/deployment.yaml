@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: angular-boilerplate
+spec:
+  selector:
+    matchLabels:
+      app: angular-boilerplate
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: hangular-boilerplate
+    spec:
+      containers:
+      - name: helloapp
+        image: nwn722/angular-boilerplate:build-1
+        ports:
+        - containerPort: 80
+
