@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: hangular-boilerplate
+        app: angular-boilerplate
     spec:
       containers:
-      - name: helloapp
+      - name: angular-boilerplate
         image: nwn722/angular-boilerplate:build-1
         ports:
         - containerPort: 80
