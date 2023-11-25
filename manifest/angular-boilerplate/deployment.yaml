@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: angular-boilerplate
-        image: nwn722/angular-boilerplate:build-1
+        image: nwn722/angular-boilerplate:build-7
         ports:
         - containerPort: 80
 
