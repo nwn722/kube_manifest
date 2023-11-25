@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: angular-boilerplate
-        image: nwn722/angular-boilerplate:build-7
+        image: 598880949918.dkr.ecr.us-east-2.amazonaws.com/angular-boilerplate:build-7
         ports:
         - containerPort: 80
 
